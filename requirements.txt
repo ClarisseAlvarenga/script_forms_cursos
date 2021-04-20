@@ -1,0 +1,9 @@
+DateTime==4.3
+numpy==1.20.2
+pandas==1.2.4
+python-dateutil==2.8.1
+pytz==2021.1
+six==1.15.0
+zope.interface==5.4.0
+pybase64 == 1.1.4
+openpyxl == 3.0.7
