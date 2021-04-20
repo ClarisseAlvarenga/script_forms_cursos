@@ -6,7 +6,6 @@ import base64
 
 def recebe_arquivo():
     st.subheader('Busque o arquivo das inscrições no Forms')
-    st.write('link: https://urless.in/qhaj1')
     arquivo = st.file_uploader('Inclua aqui o arquivo Excel gerado no Forms', type='xlsx')
     return arquivo
 
