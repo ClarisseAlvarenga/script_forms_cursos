@@ -76,6 +76,7 @@ def main():
         st.write('Aguarde um momento enquanto tratamos seu arquivo ... isso pode levar uns minutinhos')
         st.image('https://gifimage.net/wp-content/uploads/2017/10/calculations-gif-6.gif')
         cursos = trata_arquivo(arquivo)
+        st.subheader('Pronto, aqui está seu arquivo tratado!')
         st.dataframe(cursos)
         st.subheader('Salve o arquivo csv gerado')
         nome_do_arquivo = st.text_input('Digite o nome do arquivo seguido de .csv')
